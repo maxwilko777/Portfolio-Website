@@ -103,7 +103,8 @@ h3{
 
 .home-nav{
     position: relative;
-    margin:20px
+    margin:20px;
+    align-content: center;
 }
 
 .home-nav ul li{
@@ -131,4 +132,4 @@ h3{
 .my-life-sections{
     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
 }
-/*############ Containers ############*/
+
