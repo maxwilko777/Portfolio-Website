@@ -3,37 +3,32 @@
 
 <head>
     <title>Max's Website</title>
-<!--main styling file-->   
+    <!--main styling file-->
     <link rel="stylesheet" href="css/main.css">
-<!--simple-grid styling file-->
+    <!--simple-grid styling file-->
     <link rel="stylesheet" href="css/simple-grid.css">
-<!--normilize styling file-->
+    <!--normilize styling file-->
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
     <header class="header">
-        <nav>
         <div class="home-nav">
-            <div class="home-mobile-nav">
-                <icon-icon name="menu" class="icon-menu"></icon-icon>
-                <ul>
-                    <li><a href="mjswilkinson@outlook.com">Contact Me</a></li>
-                    <li><a href="my-projects.html">Projects</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="">Education</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="mjswilkinson@outlook.com">Contact Me</a></li>
+                <li><a href="my-projects.html">Projects</a></li>
+                <li><a href="education.html" >Education</a></li>
+            </ul>
         </div>
-        </nav>
         <div class="home-title">
             <h1 class=home-h1>Max's Portfolio</h1>
         </div>
         <section class="img-rotator container" id="img-rotator">
             <div class="row">
                 <div class="col-12 img-rotator">
-                    <img src="images/t-h-clements-img.jpg" alt="First Job, T H Clements LTD" height="425">
-                    <p>T H  Clements & Sons LTD, first job.</p>
+                    <a href="https://thclements.co.uk">
+                        <img src="images/t-h-clements-img.jpg" alt="First Job, T H Clements LTD" height="425"></a>
+                    <p>T H Clements & Sons LTD, first job.</p>
                 </div>
             </div>
         </section>
@@ -45,7 +40,8 @@
         <div class="row">
             <div class="col-4 my-life-sections">
                 <h3>Projects</h3>
-                <img src="images/projects-img.jpg" alt="Project Placeholder Image">
+                <a href="my-projects.html">
+                    <img src="images/projects-img.jpg" alt="Project Placeholder Image"></a>
                 <p>My applications and many other related projects. Detailed documentation is
                     listed and discussed here.</p>
             </div>
@@ -68,7 +64,6 @@
 
     </div>
 </body>
-<!--query file-->
-<script src="js/jquery-3.6.0.js"></script>
+<script src="js/main.js"></script>
 
 </html>
