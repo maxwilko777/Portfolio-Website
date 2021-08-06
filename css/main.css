@@ -28,18 +28,13 @@ img{
 
 a{
     text-decoration:none;
-    color: var(--black);
+    color: #fff;
 }
 
 li{
     list-style-type: none;
 }
 
-button{
-    cursor:pointer;
-    outline: 0;
-    background: transparent;
-}
 
 /*############ Home Page Styling ############*/
 .header {
@@ -52,14 +47,6 @@ button{
     background-attachment: fixed;
     flex-direction: column;
     justify-content: stretch;
-}
-
-.home-display {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0));
-    height: 100vh;
 }
 
 .home-title {
@@ -118,7 +105,7 @@ h3{
     text-align: center;
     font-size: 20px;
     transition: border-bottom 0.2s;
-    border-color: #ce8a9a;
+    border-color: #fff;
 }
 /*############ My Life Section ############*/
 
