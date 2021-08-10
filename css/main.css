@@ -49,28 +49,30 @@ li{
     justify-content: stretch;
 }
 
+
+
 .home-title {
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 40%;
+    left: 30%;
     transform: translate(-50%, -50%);
     filter: brightness(1.75);
 }
 
 .img-rotator{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 110%;
+    left: 60%;
     transform: translate(-30%, -50%);
     margin-top: 200px;
-    background: #ededed;
+    background: #c5c3c3;
     border-radius: 10px;  
     text-align: center;
 
 }
 /*############ Headings ############*/
 
-.home-h1 {
+.home-h1, .home-h2 {
     color: #fff;
 }
 
@@ -116,8 +118,14 @@ h3{
 /*############ My Life Section ############*/
 
 .my-life{
-    background: #ededed;
-    border-radius: 10px;
+    background-image: url(images/japanese-rice-fields.jpg);
+    position: absolute;
+    top: 145%;
+    left: 30%;
+    margin-top: 200px;
+    background: #c5c3c3;
+    border-radius: 10px;  
+    text-align: center;
 }
 
 .my-life-sections{
