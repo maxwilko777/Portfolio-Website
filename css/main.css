@@ -35,10 +35,55 @@ li{
     list-style-type: none;
 }
 
+/*############ Headings ############*/
+
+.home-h1, .home-h2 {
+    color: #fff;
+}
+
+.home-h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid#fff;
+}
+
+h3{
+    color:black;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*############ Navigation ############*/
+
+.home-nav{
+    position: relative;
+    margin:20px;
+    align-content: center;
+}
+
+.nav-list{
+    background: #ededed;
+    box-shadow: 0px 0px 10px var(rgb(85, 84, 84));
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link{
+    list-style: none;
+    margin-right: 2rem;
+}
 
 /*############ Home Page Styling ############*/
 .header {
-    background-image: url(images/dubai-evening.jpg);
+    background-image: url(images/tropical-beach2.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,58 +115,35 @@ li{
     text-align: center;
 
 }
-/*############ Headings ############*/
 
-.home-h1, .home-h2 {
-    color: #fff;
+/*############ My Info & Img Rotator ############*/
+
+.my-info-description{
+    transform: translate(10%, -5%);
 }
 
-.home-h1 {
-    font-size: 50px;
-    text-align: center;
-    border-bottom: 2px solid#fff;
-}
+/*############ Socials ############*/
 
-h3{
-    color:black;
-    margin-top: 20px;
-    font-size: 25px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-/*############ Navigation ############*/
 
-.home-nav{
-    position: relative;
-    margin:20px;
-    align-content: center;
-}
-
-.nav-list{
-    background: #ededed;
-    box-shadow: 0px 0px 10px var(rgb(85, 84, 84));
-    margin: 0;
-    padding: 1rem 0;
-    border-radius: var(--radius);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav-link{
-    list-style: none;
-    margin-right: 2rem;
-}
 
 /*############ My Life Section ############*/
 
+.my-life-section{
+    background-image: url(images/trees\ tropical\ beach.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
 .my-life{
-    background-image: url(images/japanese-rice-fields.jpg);
     position: absolute;
-    top: 145%;
-    left: 30%;
+    top: 160%;
+    left: 27%;
     margin-top: 200px;
     background: #c5c3c3;
     border-radius: 10px;  
