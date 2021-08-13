@@ -112,6 +112,13 @@ header {
     display: flex-end;
     justify-content: space-around;
     align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #fff;
+    padding: 20px 100px ;
+    box-shadow: ;
 }
 
 header ul{
@@ -155,10 +162,18 @@ header ul li a{
 
 /*############ My Info & Img Rotator ############*/
 
-/*.my-info-description{
-    transform: translate(10%, -5%);
-}*/
+.my-info{
+    display: flex;
+    justify-content: space-between;
+}
 
+.my-info-description{
+    margin-bottom: 10px;
+}
+
+.clements-img{
+    max-width: 100%;
+}
 /*############ Socials ############*/
 
 
