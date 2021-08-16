@@ -118,7 +118,11 @@ header {
 header.sticky{
     background: #fff;
     padding: 20px 100px ;
-    box-shadow: ;
+    box-shadow: 0 5px 20px rgb(0,0,0,0.1);
+}
+
+header.sticky ul li a{
+    color: black;
 }
 
 header ul{
@@ -180,29 +184,27 @@ header ul li a{
 
 /*############ My Life Section ############*/
 
-/*.my-life-section{
-    background-image: url(images/trees\ tropical\ beach.jpg);
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    background-attachment: fixed;
-    flex-direction: column;
-    justify-content: stretch;
+.my-life-section{
+    background: #111;
 }
 
-.my-life{
-    position: absolute;
-    top: 160%;
-    left: 27%;
-    margin-top: 200px;
-    background: #c5c3c3;
-    border-radius: 10px;  
+.my-life-title{
+    color: #fff;
+}
+
+.my-life-section .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: none;
+}
+
+.my-life-section .content .my-life-box{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
     text-align: center;
+    transition: 0.5s;
 }
-
-.my-life-sections{
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
-}*/
-
