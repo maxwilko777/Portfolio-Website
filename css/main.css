@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -143,27 +144,6 @@ header ul li a{
     text-decoration: none;
 }
 
-
-/*.home-title {
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    filter: brightness(1.75);
-}
-
-.img-rotator{
-    position: absolute;
-    top: 110%;
-    left: 60%;
-    transform: translate(-30%, -50%);
-    margin-top: 200px;
-    background: #c5c3c3;
-    border-radius: 10px;  
-    text-align: center;
-
-}*/
-
 /*############ My Info & Img Rotator ############*/
 
 .my-info{
@@ -207,4 +187,12 @@ header ul li a{
     margin: 20px;
     text-align: center;
     transition: 0.5s;
+}
+
+.my-life-section .content .my-life-box:hover{
+    background: #2196f3;
+}
+
+.my-life-section .content .my-life-box p, h3{
+    color: #fff;
 }
